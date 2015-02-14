@@ -1,13 +1,13 @@
 require 'spec_helper'
 
-describe Player do
+describe Baseball::Player do
   subject { described_class.new(name) }
 
   let(:name) { 'Pedro Cerrano' }
 
   describe '.new' do
     it 'creates an instance of the class' do
-      expect(subject).to be_instance_of Player
+      expect(subject).to be_instance_of described_class
     end
   end
 
