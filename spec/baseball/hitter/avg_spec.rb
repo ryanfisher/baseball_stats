@@ -36,8 +36,8 @@ describe Baseball::Hitter::Avg do
     context 'when average is better than subject' do
       let(:average) { described_class.new('180', '600') }
 
-      it 'should be false' do
-        expect(average.betterThan?(subject)).to be false
+      it 'should be true' do
+        expect(average.betterThan?(subject)).to be true
       end
     end
 
@@ -55,6 +55,24 @@ describe Baseball::Hitter::Avg do
       it 'should be false' do
         expect(average.betterThan?(subject)).to be false
       end
+    end
+  end
+
+  describe '#+' do
+    let(:average) { described_class.new('160', '567') }
+
+    let(:new_average) { average + subject }
+
+    it 'returns a new instance with the correct hits value' do
+      expect(new_average.hits).to be 310
+    end
+
+    it 'returns a new instance with the correct ab value' do
+      expect(new_average.ab).to be 1147
+    end
+
+    it 'returns a new average that is better than the subject' do
+      expect(new_average.betterThan?(subject)).to be true
     end
   end
 end
