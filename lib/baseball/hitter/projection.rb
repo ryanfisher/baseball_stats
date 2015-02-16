@@ -7,7 +7,7 @@ module Baseball
         @hr = Hr.new(args.fetch(:hr))
         @rbi = Rbi.new(args.fetch(:rbi))
         @sb = Sb.new(args.fetch(:sb))
-        @avg = Avg.new(args.fetch(:avg))
+        @avg = Avg.new(args.fetch(:hits), args.fetch(:ab))
         @ops = Ops.new(args.fetch(:ops))
       end
     end

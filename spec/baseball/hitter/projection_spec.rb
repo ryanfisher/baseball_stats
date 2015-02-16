@@ -8,7 +8,8 @@ describe Baseball::Hitter::Projection do
       runs: runs,
       hr: hr,
       rbi: rbi,
-      avg: avg,
+      hits: hits,
+      ab: ab,
       sb: sb,
       ops: ops
     }
@@ -17,7 +18,8 @@ describe Baseball::Hitter::Projection do
   let(:hr)   { nil }
   let(:rbi)  { nil }
   let(:sb)   { nil }
-  let(:avg)  { nil }
+  let(:hits) { nil }
+  let(:ab)   { nil }
   let(:ops)  { nil }
 
   describe '.new' do
