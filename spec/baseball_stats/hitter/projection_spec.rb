@@ -11,7 +11,8 @@ describe BaseballStats::Hitter::Projection do
       hits: hits,
       ab: ab,
       sb: sb,
-      ops: ops
+      obp: obp,
+      slg: slg
     }
   end
   let(:runs) { nil }
@@ -20,7 +21,13 @@ describe BaseballStats::Hitter::Projection do
   let(:sb)   { nil }
   let(:hits) { nil }
   let(:ab)   { nil }
-  let(:ops)  { nil }
+  let(:obp)  { nil }
+  let(:slg)  { nil }
+  let(:ops_obj) { double(:ops) }
+
+  before do
+    expect(BaseballStats::Hitter::Ops).to receive(:new) { ops_obj }
+  end
 
   describe '.new' do
     it 'creates an instance of the class' do
