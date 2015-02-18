@@ -1,5 +1,6 @@
 module BaseballStats
   class Hitter
+    # Calculate and compare hitter's on base percentage
     class Obp < BaseballStats::Player::Stat
       attr_reader :hits, :bb, :ab, :hbp, :sf
       def initialize(args)

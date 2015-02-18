@@ -1,5 +1,6 @@
 module BaseballStats
   class Hitter
+    # A hitter's projected stat line
     class Projection < BaseballStats::Player::Projection
       attr_reader :runs, :hr, :rbi, :sb, :avg, :ops
       def initialize(args)
