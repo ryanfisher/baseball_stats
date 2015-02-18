@@ -32,12 +32,12 @@ describe BaseballStats::Hitter::Avg do
     end
   end
 
-  describe '#betterThan?' do
+  describe '#better_than?' do
     context 'when average is better than subject' do
       let(:average) { described_class.new('180', '600') }
 
       it 'should be true' do
-        expect(average.betterThan?(subject)).to be true
+        expect(average.better_than?(subject)).to be true
       end
     end
 
@@ -45,7 +45,7 @@ describe BaseballStats::Hitter::Avg do
       let(:average) { described_class.new('155', '600') }
 
       it 'should be false' do
-        expect(average.betterThan?(subject)).to be false
+        expect(average.better_than?(subject)).to be false
       end
     end
 
@@ -53,7 +53,7 @@ describe BaseballStats::Hitter::Avg do
       let(:average) { described_class.new('75', '290') }
 
       it 'should be false' do
-        expect(average.betterThan?(subject)).to be false
+        expect(average.better_than?(subject)).to be false
       end
     end
   end
@@ -72,7 +72,7 @@ describe BaseballStats::Hitter::Avg do
     end
 
     it 'returns a new average that is better than the subject' do
-      expect(new_average.betterThan?(subject)).to be true
+      expect(new_average.better_than?(subject)).to be true
     end
   end
 end

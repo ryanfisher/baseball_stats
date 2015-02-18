@@ -6,7 +6,7 @@ module BaseballStats
         @value = stat.to_i
       end
 
-      def betterThan?(other)
+      def better_than?(other)
         value > other.value
       end
 

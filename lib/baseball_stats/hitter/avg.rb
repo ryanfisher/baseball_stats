@@ -1,5 +1,6 @@
 module BaseballStats
   class Hitter
+    # Calculate and compare a hitter's average
     class Avg < BaseballStats::Player::Stat
       attr_reader :hits, :ab, :value
       def initialize(hits, ab)
@@ -8,7 +9,7 @@ module BaseballStats
         @value = @ab == 0 ? 0 : @hits.to_f / @ab
       end
 
-      def betterThan?(other)
+      def better_than?(other)
         value > other.value
       end
 

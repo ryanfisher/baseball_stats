@@ -17,11 +17,11 @@ describe BaseballStats::Hitter::Runs do
     end
   end
 
-  describe '#betterThan?' do
+  describe '#better_than?' do
     let(:runs) { described_class.new('200') }
 
     it 'should be worse than runs' do
-      expect(subject.betterThan?(runs)).to be false
+      expect(subject.better_than?(runs)).to be false
     end
   end
 
