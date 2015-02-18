@@ -3,7 +3,7 @@ require 'spec_helper'
 describe BaseballStats::Hitter::Slg do
   subject { described_class.new(data) }
 
-  let(:data) { {tb: '100', ab: '200'} }
+  let(:data) { { tb: '100', ab: '200' } }
 
   describe '.new' do
     it 'should return an instance of the class' do

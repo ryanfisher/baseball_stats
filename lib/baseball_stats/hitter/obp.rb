@@ -11,8 +11,17 @@ module BaseballStats
       end
 
       def value
-        denom = ab + bb + hbp + sf
-        denom == 0 ? 0 : (hits + bb + hbp) / denom.to_f
+        if plate_appearances == 0
+          0
+        else
+          (hits + bb + hbp) / plate_appearances.to_f
+        end
+      end
+
+      private
+
+      def plate_appearances
+        ab + bb + hbp + sf
       end
     end
   end
