@@ -1,6 +1,6 @@
 module BaseballStats
   class Hitter
-    class Rbi < BaseballStats::Player::Stat
+    class Rbi < BaseballStats::Player::Statistic
     end
   end
 end

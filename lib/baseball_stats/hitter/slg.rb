@@ -1,7 +1,7 @@
 module BaseballStats
   class Hitter
     # Calculate and compare a hitter's slugging percentage
-    class Slg < Stat
+    class Slg < Statistic
       attr_reader :tb, :ab, :value
       def initialize(args)
         @tb = args.fetch(:tb).to_i

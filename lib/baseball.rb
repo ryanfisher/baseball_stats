@@ -1,7 +1,7 @@
 require_relative 'baseball_stats/player'
 require_relative 'baseball_stats/hitter'
 require_relative 'baseball_stats/pitcher'
-require_relative 'baseball_stats/player/stat'
+require_relative 'baseball_stats/player/statistic'
 require_relative 'baseball_stats/player/projection'
 require_relative 'baseball_stats/hitter/projection'
 require_relative 'baseball_stats/pitcher/projection'

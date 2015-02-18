@@ -1,7 +1,7 @@
 module BaseballStats
   class Player
     # Calculate and compare a player statistic
-    class Stat
+    class Statistic
       attr_reader :value
       def initialize(stat)
         @value = stat.to_i

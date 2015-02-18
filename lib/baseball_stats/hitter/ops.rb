@@ -1,7 +1,7 @@
 module BaseballStats
   class Hitter
     # Calculate and compare a hitter's Onbase plus slugging percentage
-    class Ops < BaseballStats::Player::Stat
+    class Ops < BaseballStats::Player::Statistic
       attr_reader :value
       def initialize(args)
         @obp = args.fetch(:obp)

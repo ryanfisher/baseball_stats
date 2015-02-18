@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe BaseballStats::Player::Stat do
+describe BaseballStats::Player::Statistic do
   subject { described_class.new(data) }
 
   let(:data) { 'N/A' }
