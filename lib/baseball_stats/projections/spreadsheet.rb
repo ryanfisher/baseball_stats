@@ -6,7 +6,7 @@ module BaseballStats
     class Spreadsheet
       def initialize(sheet)
         @csv = CSV.open(sheet, 'r:bom|utf-8').readlines
-        @headers = @csv[0]
+        @headers = @csv[0].map(&:downcase)
       end
 
       def lines
