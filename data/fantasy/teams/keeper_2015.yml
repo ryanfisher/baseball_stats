@@ -1,0 +1,28 @@
+-
+  manager: Ryan
+  hitters:
+    - Miguel Cabrera
+    - Buster Posey
+    - Adrian Gonzalez
+    - Todd Frazier
+    - Ian Kinsler
+    - Yoenis Cespedes
+    - Joey Votto
+    - Jorge Soler
+  pitchers:
+    - Corey Kluber
+    - Jose Fernandez
+-
+  manager: Brian
+  hitters:
+    - Adam Jones
+    - Jose Bautista
+    - Robinson Cano
+    - Adrian Beltre
+    - Josh Donaldson
+    - Matt Holliday
+    - Jay Bruce
+    - J.D. Martinez
+  pitchers:
+    - Zack Greinke
+    - Garrett Richards
