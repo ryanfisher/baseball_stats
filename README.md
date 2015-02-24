@@ -25,7 +25,7 @@ Custom Teams
 You can pass in any custom team by following the following format for your team yaml
 ```yml
 -
-  team: team 1 name
+  name: team 1 name
   hitters:
     - hitter 1 name
     - hitter 2 name
@@ -35,7 +35,7 @@ You can pass in any custom team by following the following format for your team 
     - pitcher 2 name
     ...
 -
-  team: team 2 name
+  name: team 2 name
   hitters:
     ...
   pitchers:

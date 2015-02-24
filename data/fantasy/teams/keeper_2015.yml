@@ -1,5 +1,5 @@
 -
-  manager: Ryan
+  name: Ryan
   hitters:
     - Miguel Cabrera
     - Buster Posey
@@ -13,7 +13,7 @@
     - Corey Kluber
     - Jose Fernandez
 -
-  manager: Brian
+  name: Brian
   hitters:
     - Adam Jones
     - Jose Bautista
