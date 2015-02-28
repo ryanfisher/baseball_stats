@@ -27,4 +27,15 @@ describe BaseballStats::Fantasy::Team do
       expect(subject.add_pitcher pitcher).to eq [pitcher]
     end
   end
+
+  context 'when passing in hitters' do
+    let(:data)    { { league: league, hitters: hitters } }
+    let(:hitters) { [double(:hitter)]                    }
+
+    describe '#hitters' do
+      it 'should be hitters' do
+        expect(subject.send(:hitters)).to be hitters
+      end
+    end
+  end
 end

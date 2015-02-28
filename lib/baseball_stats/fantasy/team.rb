@@ -4,8 +4,8 @@ module BaseballStats
     class Team
       def initialize(args)
         @league = args.fetch(:league)
-        @hitters = []
-        @pitchers = []
+        @hitters = args.fetch(:hitters, [])
+        @pitchers = args.fetch(:pitchers, [])
       end
 
       def add_hitter(hitter)
