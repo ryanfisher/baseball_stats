@@ -17,7 +17,7 @@ To analyze fantasy teams in a league, you can include a projections object and t
 ```ruby
 projections = BaseballStats::Hitter::Projections.new(projections_location)
 teams = 'data/fantasy/teams/keeper_2015.yml'
-league = BaseballStats::Fantasy::League(projections: projections, teams: teams)
+league = BaseballStats::Fantasy::League.new(projections: projections, teams: teams)
 league.projected_standings
 ```
 Custom Teams
