@@ -34,4 +34,24 @@ describe BaseballStats::Hitter::Projection do
       expect(subject.rbi).to be_instance_of BaseballStats::Hitter::Rbi
     end
   end
+
+  describe '#slg' do
+    let(:args) do
+      {
+        'hr' => '10',
+        '3b' => '10',
+        '2b' => '10',
+        'hits' => '50',
+        'ab' => '150'
+      }
+    end
+
+    it 'returns a slg object' do
+      expect(subject.slg).to be_instance_of BaseballStats::Hitter::Slg
+    end
+
+    it 'should have a correct value' do
+      expect(subject.slg.value.round(3)).to eq 0.733
+    end
+  end
 end
