@@ -5,8 +5,8 @@ module BaseballStats
     # A fantasy league containing a set of teams
     class League
       def initialize(args)
-        @projections = args.fetch(:projections)
-        teams YAML.load_file(args.fetch(:teams))
+        @projections = args.fetch(:projections) { default_projections }
+        teams YAML.load_file(args.fetch(:teams) { default_teams })
       end
 
       def teams(team_list = [])
@@ -19,6 +19,16 @@ module BaseballStats
       end
 
       private
+
+      def default_projections
+        BaseballStats::Hitter::Projections.new(
+          'data/projections/2015/FanGraphsFans.csv'
+        )
+      end
+
+      def default_teams
+        'data/fantasy/teams/keeper_2015.yml'
+      end
 
       attr_reader :projections
     end

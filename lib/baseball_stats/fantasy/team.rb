@@ -16,6 +16,10 @@ module BaseballStats
         pitchers << pitcher
       end
 
+      def projection(stat)
+        hitters.map { |hitter| hitter.projected(stat) }.reduce(:+)
+      end
+
       private
 
       attr_reader :league
