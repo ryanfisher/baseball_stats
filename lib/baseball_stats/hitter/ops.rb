@@ -9,6 +9,10 @@ module BaseballStats
         @value = @obp.value + @slg.value
       end
 
+      def +(other)
+        self.class.new(obp: obp + other.obp, slg: slg + other.slg)
+      end
+
       protected
 
       attr_reader :obp, :slg

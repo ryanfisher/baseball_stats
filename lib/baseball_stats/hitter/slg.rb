@@ -8,6 +8,10 @@ module BaseballStats
         @ab = args.fetch(:ab).to_i
         @value = tb / ab.to_f
       end
+
+      def +(other)
+        self.class.new(tb: tb + other.tb, ab: ab + other.ab)
+      end
     end
   end
 end

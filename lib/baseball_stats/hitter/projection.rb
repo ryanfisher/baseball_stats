@@ -6,7 +6,9 @@ module BaseballStats
       class HitterData
         ALIASES = {
           h: [:hits, :h],
-          hits: [:h, :hits]
+          hits: [:h, :hits],
+          r: [:r, :runs],
+          runs: [:runs, :r]
         }
 
         def initialize(data)

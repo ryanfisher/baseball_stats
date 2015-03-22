@@ -19,6 +19,16 @@ module BaseballStats
         end
       end
 
+      def +(other)
+        self.class.new(
+          hits: hits + other.hits,
+          bb: bb + other.bb,
+          ab: ab + other.ab,
+          hbp: hbp + other.hbp,
+          sf: sf + other.sf
+        )
+      end
+
       private
 
       def plate_appearances

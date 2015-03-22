@@ -14,9 +14,22 @@ module BaseballStats
           hitters = team['hitters'].map do |hitter|
             Hitter.new(name: hitter, projection: projections[hitter])
           end
-          Team.new(league: self, hitters: hitters)
+          Team.new(manager: team['name'], league: self, hitters: hitters)
         end
       end
+
+      def printed_standings
+        teams.each do |team|
+          print "#{team.manager} "
+          HITTER_STATS.each { |stat| print "#{team.projection(stat).value} " }
+          print "\n"
+        end
+
+        # Return nil so teams objects are printed out in console
+        nil
+      end
+
+      HITTER_STATS = %w(runs hr rbi sb avg ops)
 
       private
 
