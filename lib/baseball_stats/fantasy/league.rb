@@ -18,7 +18,7 @@ module BaseballStats
         end
       end
 
-      def printed_standings
+      def printed_stat_totals
         teams.each do |team|
           print "#{team.manager} "
           HITTER_STATS.each { |stat| print "#{team.projection(stat).value} " }
@@ -29,9 +29,35 @@ module BaseballStats
         nil
       end
 
+      def hitting_ranks
+        totals = {}
+        sorted_grouped_stats.each do |stat|
+          count = 0
+          stat.each do |_, team|
+            totals[team] ||= 0
+            totals[team] += count
+            count += 1
+          end
+        end
+
+        totals
+      end
+
+      def sorted_grouped_stats
+        grouped_stat_totals.map { |stats| stats.sort_by { |elem| elem[0] } }
+      end
+
       HITTER_STATS = %w(runs hr rbi sb avg ops)
 
       private
+
+      def grouped_stat_totals
+        HITTER_STATS.map do |stat|
+          teams.map do |team|
+            [team.projection(stat).value, team.manager]
+          end
+        end
+      end
 
       def default_projections
         BaseballStats::Hitter::Projections.new(
