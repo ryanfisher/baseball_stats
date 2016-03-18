@@ -1,0 +1,140 @@
+-
+  name: Ryan
+  hitters:
+    - Miguel Cabrera
+    - Buster Posey
+    - Adrian Gonzalez
+    - Todd Frazier
+    - Kyle Schwarber
+    - Yoenis Cespedes
+    - Joey Votto
+    - J.D. Martinez
+  pitchers:
+    - Corey Kluber
+    - Jose Fernandez
+-
+  name: Brian
+  hitters:
+    - Adam Jones
+    - Jose Bautista
+    - Robinson Cano
+    - Adrian Beltre
+    - Josh Donaldson
+    - Matt Holliday
+    - Starlin Castro
+  pitchers:
+    - Zack Greinke
+    - Jacob deGrom
+    - Garrett Richards
+-
+  name: Keel
+  hitters:
+    - Mike Trout
+    - Albert Pujols
+    - Jason Heyward
+    - David Wright
+    - Shin-Soo Choo
+    - Ben Zobrist
+  pitchers:
+    - Felix Hernandez
+    - Johnny Cueto
+    - Gerrit Cole
+    - James Shields
+-
+  name: Cameron
+  hitters:
+    - Andrew McCutchen
+    - Carlos Gomez
+    - Jose Abreu
+    - David Ortiz
+    - Nolan Arenado
+    - Mookie Betts
+    - Brian Dozier
+    - Josh Harrison
+  pitchers:
+    - Lance Lynn
+    - Yordano Ventura
+-
+  name: Schwarz
+  hitters:
+    - Edwin Encarnacion
+    - Ian Desmond
+    - Ryan Braun
+    - Corey Dickerson
+    - Victor Martinez
+    - Alex Gordon
+    - Hunter Pence
+  pitchers:
+    - Adam Wainwright
+    - Julio Teheran
+    - Andrew Cashner
+-
+  name: David
+  hitters:
+    - Anthony Rizzo
+    - Jose Altuve
+    - Xander Bogaerts
+    - Wil Myers
+  pitchers:
+    - Stephen Strasburg
+    - Madison Bumgarner
+    - Craig Kimbrel
+    - Matt Harvey
+    - Jake Arrieta
+    - Sonny Gray
+-
+  name: Steve
+  hitters:
+    - Anthony Rendon
+    - Bryce Harper
+    - Justin Upton
+    - George Springer
+    - Billy Hamilton
+    - Kyle Seager
+    - Carlos Santana
+  pitchers:
+    - Clayton Kershaw
+    - Jon Lester
+    - Alex Cobb
+-
+  name: Corbin
+  hitters:
+    - Giancarlo Stanton
+    - Michael Brantley
+    - Freddie Freeman
+    - Carlos Gonzalez
+    - Jose Reyes
+    - Manny Machado
+  pitchers:
+    - David Price
+    - Jordan Zimmermann
+    - Doug Fister
+    - Jered Weaver
+-
+  name: Mannywood
+  hitters:
+    - Paul Goldschmidt
+    - Hanley Ramirez
+    - Troy Tulowitzki
+    - Jacoby Ellsbury
+    - Prince Fielder
+    - Starling Marte
+    - Jason Kipnis
+  pitchers:
+    - Max Scherzer
+    - Cole Hamels
+    - Matt Moore
+-
+  name: Simmons
+  hitters:
+    - Yasiel Puig
+    - Evan Longoria
+    - Nelson Cruz
+    - Christian Yelich
+    - Chris Davis
+    - Brett Gardner
+    - Howie Kendrick
+  pitchers:
+    - Chris Sale
+    - Greg Holland
+    - Hisashi Iwakuma
