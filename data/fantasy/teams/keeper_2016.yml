@@ -20,68 +20,68 @@
     - Robinson Cano
     - Adrian Beltre
     - Josh Donaldson
-    - Matt Holliday
-    - Starlin Castro
+    - Miguel Sano
   pitchers:
     - Zack Greinke
     - Jacob deGrom
-    - Garrett Richards
+    - Noah Syndegaard
+    - Adam Wainwright
 -
   name: Keel
   hitters:
     - Mike Trout
     - Albert Pujols
     - Jason Heyward
-    - David Wright
+    - Carlos Correa
     - Shin-Soo Choo
-    - Ben Zobrist
+    - Kendrys Morales
+    - Lorenzo Cain
   pitchers:
     - Felix Hernandez
     - Johnny Cueto
     - Gerrit Cole
-    - James Shields
 -
   name: Cameron
   hitters:
-    - Andrew McCutchen
-    - Carlos Gomez
-    - Jose Abreu
-    - David Ortiz
     - Nolan Arenado
+    - Andrew McCutchen
+    - Jose Abreu
     - Mookie Betts
+    - David Ortiz
     - Brian Dozier
-    - Josh Harrison
+    - Francisco Lindor
+    - David Peralta
+    - DJ LeMahieu
   pitchers:
-    - Lance Lynn
-    - Yordano Ventura
+    - Carlos Carrasco
 -
-  name: Schwarz
+  name: Danny
   hitters:
     - Edwin Encarnacion
     - Ian Desmond
     - Ryan Braun
     - Corey Dickerson
-    - Victor Martinez
-    - Alex Gordon
+    - Kole Calhoun
     - Hunter Pence
   pitchers:
-    - Adam Wainwright
+    - Ken Giles
+    - Zach Britton
     - Julio Teheran
-    - Andrew Cashner
+    - Jose Quintana
 -
   name: David
   hitters:
     - Anthony Rizzo
     - Jose Altuve
+    - A.J. Pollock
     - Xander Bogaerts
-    - Wil Myers
+    - Gregory Polanco
   pitchers:
     - Stephen Strasburg
     - Madison Bumgarner
-    - Craig Kimbrel
     - Matt Harvey
     - Jake Arrieta
-    - Sonny Gray
+    - Yu Darvish
 -
   name: Steve
   hitters:
@@ -91,50 +91,51 @@
     - George Springer
     - Billy Hamilton
     - Kyle Seager
-    - Carlos Santana
+    - Eric Hosmer
   pitchers:
     - Clayton Kershaw
     - Jon Lester
-    - Alex Cobb
+    - Dallas Keuchel
 -
   name: Corbin
   hitters:
     - Giancarlo Stanton
-    - Michael Brantley
+    - Charlie Blackmon
     - Freddie Freeman
     - Carlos Gonzalez
     - Jose Reyes
     - Manny Machado
+    - Matt Carpenter
+    - Brandon Crawford
   pitchers:
     - David Price
     - Jordan Zimmermann
-    - Doug Fister
-    - Jered Weaver
+    - Jeff Samardzija
 -
   name: Mannywood
   hitters:
-    - Paul Goldschmidt
+    - Starling Marte
+    - Chris Davis
+    - Nelson Cruz
+    - Prince Fielder
+    - Carlos Gomez
     - Hanley Ramirez
     - Troy Tulowitzki
-    - Jacoby Ellsbury
-    - Prince Fielder
-    - Starling Marte
-    - Jason Kipnis
+    - Joc Pederson
   pitchers:
     - Max Scherzer
-    - Cole Hamels
-    - Matt Moore
+    - Chris Archer
 -
   name: Simmons
   hitters:
+    - Paul Goldschmidt
+    - Kris Bryant
+    - Dee Gordon
     - Yasiel Puig
-    - Evan Longoria
-    - Nelson Cruz
-    - Christian Yelich
-    - Chris Davis
-    - Brett Gardner
-    - Howie Kendrick
+    - Jason Kipnis
+    - Billy Burns
+    - Brian McCann
   pitchers:
     - Chris Sale
-    - Greg Holland
-    - Hisashi Iwakuma
+    - Sonny Gray
+    - Taijuan Walker

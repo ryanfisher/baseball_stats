@@ -12,8 +12,9 @@ module BaseballStats
       def teams(team_list = [])
         @_teams ||= team_list.map do |team|
           hitters = team['hitters'].map do |hitter|
-            Hitter.new(name: hitter, projection: projections[hitter])
-          end
+            projection = projections[hitter]
+            Hitter.new(name: hitter, projection: projection) if projection
+          end.compact
           Team.new(manager: team['name'], league: self, hitters: hitters)
         end
       end
@@ -61,12 +62,12 @@ module BaseballStats
 
       def default_projections
         BaseballStats::Hitter::Projections.new(
-          'data/projections/2015/FanGraphsFans.csv'
+          'data/projections/2016/FanGraphsFans.csv'
         )
       end
 
       def default_teams
-        'data/fantasy/teams/keeper_2015.yml'
+        'data/fantasy/teams/keeper_2016.yml'
       end
 
       attr_reader :projections
