@@ -1,0 +1,200 @@
+-
+  name: Ryan
+  hitters:
+    - Miguel Cabrera
+    - Buster Posey
+    - Adrian Gonzalez
+    - Todd Frazier
+    - Kyle Schwarber
+    - Yoenis Cespedes
+    - Joey Votto
+    - J.D. Martinez
+    - Neil Walker
+    - Javier Baez
+    - Michael Brantley
+    - Brandon Belt
+    - Jonathan Schoop
+  pitchers:
+    - Corey Kluber
+    - Jose Fernandez
+-
+  name: Brian
+  hitters:
+    - Adam Jones
+    - Jose Bautista
+    - Robinson Cano
+    - Adrian Beltre
+    - Josh Donaldson
+    - Miguel Sano
+    - Yan Gomes
+    - Stephen Piscotty
+    - Starlin Castro
+    - Trevor Story
+    - Jacoby Ellsbury
+    - Adam Eaton
+    - Michael Conforto
+  pitchers:
+    - Zack Greinke
+    - Jacob deGrom
+    - Noah Syndegaard
+    - Adam Wainwright
+-
+  name: Keel
+  hitters:
+    - Mike Trout
+    - Albert Pujols
+    - Jason Heyward
+    - Carlos Correa
+    - Shin-Soo Choo
+    - Kendrys Morales
+    - Lorenzo Cain
+    - Russell Martin
+    - Rougned Odor
+    - Daniel Murphy
+    - Jay Bruce
+    - Justin Turner
+    - Hector Olivera
+  pitchers:
+    - Felix Hernandez
+    - Johnny Cueto
+    - Gerrit Cole
+-
+  name: Cameron
+  hitters:
+    - Nolan Arenado
+    - Andrew McCutchen
+    - Jose Abreu
+    - Mookie Betts
+    - David Ortiz
+    - Brian Dozier
+    - Francisco Lindor
+    - David Peralta
+    - DJ LeMahieu
+    - Derek Norris
+    - Gerrardo Parra
+    - Evan Gattis
+    - Ian Kinsler
+  pitchers:
+    - Carlos Carrasco
+-
+  name: Danny
+  hitters:
+    - Edwin Encarnacion
+    - Ian Desmond
+    - Ryan Braun
+    - Corey Dickerson
+    - Kole Calhoun
+    - Hunter Pence
+    - Ben Zobrist
+    - Maikel Franco
+    - Lucas Duda
+    - Kolten Wong
+    - Domingo Santana
+    - Alex Rodriguez
+    - Jonathan Lucroy
+  pitchers:
+    - Ken Giles
+    - Zach Britton
+    - Julio Teheran
+    - Jose Quintana
+-
+  name: David
+  hitters:
+    - Anthony Rizzo
+    - Jose Altuve
+    - A.J. Pollock
+    - Xander Bogaerts
+    - Gregory Polanco
+    - Stephen Vogt
+    - Mike Moustakas
+    - Mark Teixeira
+    - Brock Holt
+    - Christian Yelich
+    - Curtis Granderson
+    - Kevin Pillar
+    - Justin Bour
+  pitchers:
+    - Stephen Strasburg
+    - Madison Bumgarner
+    - Matt Harvey
+    - Jake Arrieta
+    - Yu Darvish
+-
+  name: Steve
+  hitters:
+    - Anthony Rendon
+    - Bryce Harper
+    - Justin Upton
+    - George Springer
+    - Billy Hamilton
+    - Kyle Seager
+    - Eric Hosmer
+    - Matt Wieters
+    - Corey Seager
+    - Carlos Santana
+    - Dustin Pedroia
+    - Wil Myers
+    - Mitch Moreland
+  pitchers:
+    - Clayton Kershaw
+    - Jon Lester
+    - Dallas Keuchel
+-
+  name: Corbin
+  hitters:
+    - Giancarlo Stanton
+    - Charlie Blackmon
+    - Freddie Freeman
+    - Carlos Gonzalez
+    - Manny Machado
+    - Matt Carpenter
+    - Brandon Crawford
+    - Devin Mesoraco
+    - Matt Duffy
+    - Logan Forsythe
+    - Randal Grichuk
+    - Ben Revere
+    - Denard Span
+  pitchers:
+    - David Price
+    - Jordan Zimmermann
+    - Jeff Samardzija
+-
+  name: Mannywood
+  hitters:
+    - Starling Marte
+    - Chris Davis
+    - Nelson Cruz
+    - Prince Fielder
+    - Carlos Gomez
+    - Hanley Ramirez
+    - Troy Tulowitzki
+    - Joc Pederson
+    - Salvador Perez
+    - Jedd Gyorko
+    - Luis Valbuena
+    - Elvis Andrus
+    - Brett Gardner
+  pitchers:
+    - Max Scherzer
+    - Chris Archer
+-
+  name: Simmons
+  hitters:
+    - Paul Goldschmidt
+    - Kris Bryant
+    - Dee Gordon
+    - Yasiel Puig
+    - Jason Kipnis
+    - Billy Burns
+    - Brian McCann
+    - Cesar Hernandez
+    - Evan Longoria
+    - Matt Kemp
+    - Alex Gordon
+    - Dexter Fowler
+    - Khris Davis
+  pitchers:
+    - Chris Sale
+    - Sonny Gray
+    - Taijuan Walker
